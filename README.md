@@ -4,6 +4,35 @@
 
 专为长篇网文创作设计的AI辅助技能。只需填入世界观设定和角色档案，就能逐章生成去AI痕迹的高质量网文。
 
+## 安装
+
+### 方法一：Git 克隆（推荐）
+
+在 Trae 中打开你的项目，终端执行：
+
+```bash
+git clone https://github.com/dayao1877-oss/novel-writing.git .trae/skills/novel-writing
+```
+
+然后重启 Trae 或刷新技能列表即可生效。
+
+### 方法二：手动安装
+
+1. 下载仓库 ZIP：https://github.com/dayao1877-oss/novel-writing/archive/refs/heads/main.zip
+2. 解压后，将 `novel-writing` 文件夹复制到你的项目目录下：
+   ```
+   你的项目/.trae/skills/novel-writing/
+   ```
+3. 重启 Trae 生效
+
+### 验证安装
+
+在 Trae 对话框中输入「开始创作」，如果触发了小说写作助手的引导流程，说明安装成功。
+
+### 卸载
+
+删除 `.trae/skills/novel-writing/` 文件夹即可。
+
 ## 核心特点
 
 - **模块化开关**：19个功能模块（2必填+17可选），填什么启用什么，不填自动跳过
